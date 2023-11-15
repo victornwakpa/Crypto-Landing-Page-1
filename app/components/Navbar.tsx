@@ -40,7 +40,7 @@ export default function Navbar() {
                     <Button asChild variant="ghost">
                         <Link href="#">Sign in</Link>
                     </Button>
-                    <Button variant="outline" className="border-blue-400 border-2">Get started</Button>
+                    <Button variant="outline" className="border-primary border-2">Get started</Button>
                 </div>
             </div>
         </nav>
