@@ -23,7 +23,7 @@ export default function Testimonial() {
                 </div>
             </div>
 
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-300 to-transparent via-white backdrop-blur-lg h-[150px]"></div>
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-white to-transparent via-white h-[200px]"></div>
         </div>
     );
 }
