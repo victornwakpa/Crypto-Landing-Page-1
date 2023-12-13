@@ -5,6 +5,8 @@ import SectionSix from './components/SectionSix'
 import SectionThree from './components/SectionThree'
 import SectionTwo from './components/SectionTwo'
 import Testimonial from './components/Testimonial'
+import BottomBanner from './components/BottomBanner'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
     <SectionFive />
     <SectionSix />
     <Testimonial />
+    <BottomBanner />
+    <Footer />
    </div>
   )
 }
