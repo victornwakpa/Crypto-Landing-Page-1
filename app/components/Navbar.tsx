@@ -30,7 +30,7 @@ export default function Navbar() {
 
                 <div className="md:flex hidden gap-5 font-medium">
                     {navLinks.map((nav, item) => (
-                        <Link href={nav.id} className="">
+                        <Link key={nav.id} href={nav.id} className="">
                             {nav.title}
                         </Link>
                     ))}
