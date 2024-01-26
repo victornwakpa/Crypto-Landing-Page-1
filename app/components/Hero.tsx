@@ -13,15 +13,15 @@ export default function Hero() {
             <div className="md:py-20 py-16 px-10">
                 <div className="flex flex-col items-center gap-10">
                     <h1 className="md:text-6xl text-5xl flex flex-col text-center items-center gap-2 font-bold tracking-wide">
-                        <span className="text-primary">One platform</span>
+                        <span className="text-primary-100">One platform</span>
                         <span className="text-gray-800">all things Crypto</span>
                     </h1>
 
                     <p className="text-gray-600 text-lg max-w-xl text-center">Open a free account in minutes right from your phone and make your money go further</p>
 
-                    <div className="flex gap-3 flex-col md:flex-row">
+                    <div className="flex md:items-center gap-3 flex-col md:flex-row">
                         <input type="text" className="border-2 rounded-lg border-gray-300 px-4 py-3 w-80 md:w-[350px]" placeholder="Email Address..." />
-                        <Button className="bg-primary text-white py-6">Get started</Button>
+                        <Button className="bg-primary-100 text-white py-6 px-10">Get started</Button>
                     </div>
                 </div>
             </div>

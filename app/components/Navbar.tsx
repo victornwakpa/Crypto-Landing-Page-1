@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="flex justify-between items-center container">
                 <Image src={logo} alt={"the website logo"} />
 
-                <div className="md:flex hidden gap-5 font-medium">
+                <div className="md:flex hidden gap-5">
                     {navLinks.map((nav, item) => (
                         <Link key={nav.id} href={nav.id} className="">
                             {nav.title}
@@ -40,7 +40,7 @@ export default function Navbar() {
                     <Button asChild variant="ghost">
                         <Link href="#">Sign in</Link>
                     </Button>
-                    <Button variant="outline" className="border-primary border-2">Get started</Button>
+                    <Button variant="outline" className="border-primary border border-primary-100 text-primary-100 font-medium">Get started</Button>
                 </div>
             </div>
         </nav>
