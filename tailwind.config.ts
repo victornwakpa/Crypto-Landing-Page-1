@@ -20,6 +20,7 @@ module.exports = {
         'primary-100': "#2752E7",
         'base-20': "#E3E3E3",
         'linear': "#F8F8FC",
+        'num-color': "#D0DBFF",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
