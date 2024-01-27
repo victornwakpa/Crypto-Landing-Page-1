@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="bg-gradient-to-t from-linear to-white">
             <div className="md:py-20 py-16 px-5">
                 <div className="flex flex-col items-center gap-10">
-                    <h1 className="md:text-6xl text-5xl flex flex-col text-center items-center gap-2 font-bold tracking-wide">
+                    <h1 className="md:text-6xl text-4xl flex flex-col text-center items-center gap-2 font-bold tracking-wide">
                         <span className="text-primary-100">One platform</span>
                         <span className="text-gray-800">all things Crypto</span>
                     </h1>
