@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Testimonial() {
     return (
         <div className="py-20 bg-white relative">
-            <h2 className="text-5xl font-semibold tracking-wide leading-tight text-center mb-12">What people are saying</h2>
+            <h2 className="text-5xl font-semibold md:tracking-wide leading-tight text-center mb-12">What people are saying</h2>
 
-            <div className="px-20">
+            <div className="px-5 md:px-20">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
                     {data.map((testimonial, id) => (
                         <div key={testimonial.id} className="border p-5 rounded-lg">

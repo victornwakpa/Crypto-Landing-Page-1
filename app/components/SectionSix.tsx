@@ -6,10 +6,10 @@ import thirdImage from "@/public/assets/section-6-3.png"
 export default function SectionSix() {
     return (
         <div className="py-20 lg:h-screen 2xl:h-0">
-            <div className="px-10 md:px-40">
+            <div className="px-5 md:px-40">
                 <div className="flex flex-col justify-center items-center mb-12">
-                    <h2 className="text-5xl font-semibold w-2/5 text-center mb-4">Get Started in Just Few Minutes</h2>
-                    <p className="text-lg">Has a variety of features that make it the best place to start trading</p>
+                    <h2 className="text-4xl md:text-5xl px-3 md:px-0 font-semibold md:w-2/5 text-center mb-4">Get Started in Just Few Minutes</h2>
+                    <p className="text-lg text-center">Has a variety of features that make it the best place to start trading</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                     <div className="border rounded-xl p-4 bg-white flex flex-col items-center">
@@ -17,7 +17,7 @@ export default function SectionSix() {
 
                         <div className="text-center">
                             <h3 className="font-semibold text-3xl">Sign up</h3>
-                            <p className="text-gray-700 text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
+                            <p className="text-gray-700 text-base md:text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
                         </div>
                     </div>
 
@@ -26,7 +26,7 @@ export default function SectionSix() {
 
                         <div className="text-center">
                             <h3 className="font-semibold text-3xl">Sign up</h3>
-                            <p className="text-gray-700 text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
+                            <p className="text-gray-700 text-base md:text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ export default function SectionSix() {
 
                         <div className="text-center">
                             <h3 className="font-semibold text-3xl">Sign up</h3>
-                            <p className="text-gray-700 text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
+                            <p className="text-gray-700 text-base md:text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
                         </div>
                     </div>
                 </div>
