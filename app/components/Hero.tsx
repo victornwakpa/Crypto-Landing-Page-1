@@ -41,16 +41,16 @@ export default function Hero() {
             </div>
 
             <div className="flex justify-center pt-12 md:pt-0 pb-20 mx-10">
-                <div className="border flex flex-col md:flex-row justify-center md:py-16 rounded-xl md:divide-x-2 divide-y-2 md:divide-y-0 divide-gray-300 bg-white">
-                    <div className="text-center md:px-20 py-12 mx-20 md:mx-0">
+                <div className="border flex flex-col md:flex-row justify-center px-4 md:px-0 md:py-16 rounded-xl md:divide-x-2 divide-y md:divide-y-0 divide-gray-300 bg-white">
+                    <div className="text-center md:px-20 py-12  md:mx-0">
                         <p className="text-5xl mb-2 font-semibold text-gray-800">99k</p>
                         <p className="text-lg text-gray-700">People have joined</p>
                     </div>
-                    <div className="text-center md:px-20 py-12 mx-20 md:mx-0">
+                    <div className="text-center md:px-20 py-12 md:mx-0">
                         <p className="text-5xl mb-2 font-semibold text-gray-800">50k</p>
                         <p className="text-lg text-gray-700">VVIP users have joined</p>
                     </div>
-                    <div className="text-center md:px-20 py-12 mx-20 md:mx-0">
+                    <div className="text-center md:px-20 py-12 md:mx-0">
                         <p className="text-5xl mb-2 font-semibold text-gray-800">100+</p>
                         <p className="text-lg text-gray-700">Big Companies have joined</p>
                     </div>
