@@ -7,7 +7,7 @@ import eth from "../../public/assets/eth.png"
 export default function BottomBanner() {
 
     return (
-        <div className="py-20 bg-white relative">
+        <div className="hidden md:block py-20 bg-white relative">
             <div className="flex justify-center items-center">
                 <div className="relative">
                     <Image src={bottomBanner} alt="image showing sign up" />

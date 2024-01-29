@@ -4,15 +4,15 @@ import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 
 export default function Footer() {
     return (
-        <div className="flex bg-white py-20 px-20">
+        <div className="flex flex-col gap-8 md:gap-0 md:flex-row bg-white py-20 px-5 md:px-20">
             <div>
-                <div className="flex flex-col gap-5 px-12">
-                    <div>
-                    <Image src={logo} alt="image showing sign up" />
-                    <p className="mt-2">Take your crypto to the next level</p>
+                <div className="flex flex-col gap-5 md:px-12">
+                    <div className="text-center">
+                    <Image src={logo} alt="image showing sign up" className="inline-block w-64" />
+                    <p className="mt-2 text-center md:text-left">Take your crypto to the next level</p>
                     </div>
                     
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 justify-center">
                         <Facebook className="p-2 w-8 h-8 rounded-full text-slate-50 bg-gray-600" />
                         <Twitter className="p-2 w-8 h-8 rounded-full text-slate-50 bg-gray-600" />
                         <Instagram className="p-2 w-8 h-8 rounded-full text-slate-50 bg-gray-600" />
@@ -21,7 +21,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-5 justify-around flex-1">
+            <div className="md:flex gap-5 justify-around md:flex-1 grid grid-cols-2">
                 <div className="flex flex-col gap-3">
                     <h3 className="font-semibold">Company</h3>
                     <div className="text-gray-600 flex flex-col gap-3">
