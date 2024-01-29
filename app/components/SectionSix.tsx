@@ -16,8 +16,8 @@ export default function SectionSix() {
                         <Image src={firstImage} alt="image showing sign up" className="" />
 
                         <div className="text-center">
-                            <h3 className="font-semibold text-3xl">Sign up</h3>
-                            <p className="text-gray-700 text-base md:text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
+                            <h3 className="font-semibold text-3xl mb-3">Sign up</h3>
+                            <p className="text-gray-700 text-base md:text-sm px-3">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
                         </div>
                     </div>
 
@@ -25,8 +25,8 @@ export default function SectionSix() {
                         <Image src={secondImage} alt="image showing sign up" className="" />
 
                         <div className="text-center">
-                            <h3 className="font-semibold text-3xl">Sign up</h3>
-                            <p className="text-gray-700 text-base md:text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
+                            <h3 className="font-semibold text-3xl mb-3">Sign up</h3>
+                            <p className="text-gray-700 text-base md:text-sm px-3">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
                         </div>
                     </div>
 
@@ -34,8 +34,8 @@ export default function SectionSix() {
                         <Image src={thirdImage} alt="image showing sign up" className="" />
 
                         <div className="text-center">
-                            <h3 className="font-semibold text-3xl">Sign up</h3>
-                            <p className="text-gray-700 text-base md:text-sm">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
+                            <h3 className="font-semibold text-3xl mb-3">Sign up</h3>
+                            <p className="text-gray-700 text-base md:text-sm px-3">Buy Bitcoin or Ethereum, the securely store it in your wallet or send it on easily to friends </p>
                         </div>
                     </div>
                 </div>
