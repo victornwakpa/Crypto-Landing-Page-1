@@ -9,7 +9,7 @@ import 'swiper/css';
 
 export default function Testimonial() {
     return (
-        <div className="py-20 bg-white relative">
+        <div className="py-20 bg-white relative hidden lg:block">
             <h2 className="text-5xl font-semibold md:tracking-wide leading-tight text-center mb-12">What people are saying</h2>
 
             <div className="px-5 md:px-20">
@@ -29,7 +29,7 @@ export default function Testimonial() {
                 </div>
 
                 {/* MOBILE VERSION */}
-                <div className="grid grid-cols-1 md:grid-cols-3 md:hidden lg:grid-cols-4 gap-6 ">
+                <div className=" grid-cols-1 md:grid-cols-3 hidden lg:grid-cols-4 gap-6 ">
                     {data.map((testimonial, id) => (
                         <div key={testimonial.id} className="border p-5 rounded-lg">
                             <div className="flex gap-5 items-center rounded-lg">
